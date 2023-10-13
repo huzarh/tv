@@ -127,6 +127,7 @@ const Detail = ({ mediaType, auth }: Props & { auth: AuthState | null }) => {
 
     return (
         <div className='detail-page' >
+            {console.log(data.data.genres)}
             {
                 data && <div className="detail" style={{ backgroundImage: `url(${originalImage(data.data.backdrop_path)})` }}>
                     <Wrapper className='relative z-[1] flex flex-col md:flex-row gap-8 md:gap-16 py-5'>

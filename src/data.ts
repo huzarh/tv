@@ -1,8 +1,14 @@
 const data: any[] = [
+
     {
         "iso_639_1": "en",
         "english_name": "English",
         "name": "English"
+    },
+    {
+        "iso_639_1":"kz",
+        "english_name":"Kazakh",
+        "name":"Қазақша"
     },
     {
         "iso_639_1": "de",
@@ -114,6 +120,7 @@ const data: any[] = [
         "english_name": "Finnish",
         "name": "suomi"
     },
+
 
 ]
 
